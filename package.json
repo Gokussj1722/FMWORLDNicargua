@@ -11,5 +11,8 @@
     "caniuse-lite": "^1.0.30001157",
     "vuepress": "^1.0.0-alpha.44",
     "vuepress-plugin-export": "ulivz/vuepress-plugin-export#master"
+  },
+  "devDependencies": {
+    "vuepress": "^0.9.0"
   }
 }

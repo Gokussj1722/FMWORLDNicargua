@@ -15,8 +15,10 @@ module.exports = {
 '/en/': { lang: 'en-US'}
   },
   */
-  base: '/fmworld-nicaragua/',
+  //base: '/fmworld-nicaragua/',
    themeConfig: {    
+    docsDir: 'docs',
+    repo: 'Gokussj1722/FMWORLDNicargua',
     logo: '/main.png',
       locales: {
       '/':{
