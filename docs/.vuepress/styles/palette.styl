@@ -1,0 +1,137 @@
+$accentColor = #00b3e6
+$textColor = #111
+$borderColor = #000000
+$borderAccentColor = #000000
+$codeBgColor = #011627
+$arrowBgColor = #00b3e6
+$lightTextColor = #fff
+
+
+//2c3e50
+
+header.navbar
+header.navbar .links
+header.navbar .search-box
+  background-color: #000000
+
+ul.nav-dropdown a.nav-link
+  color: $textColor
+
+span.site-name.can-hide
+.nav-item
+a.repo-link
+a.nav-link
+a.nav-link.router-link-active
+svg.icon.outbound
+  color: $lightTextColor
+  &:hover
+    color: $accentColor
+
+
+.page .theme-default-content:not(.custom)
+.page .theme-default-content
+  h2
+  h3
+  h4
+  h5
+  h6
+    border-left: 16px solid $borderColor
+    border-bottom: 1px solid $borderColor
+    padding: 2px 16px 6px 8px
+    a.header-anchor
+      padding-left: 16px
+    margin-top: 48px
+  h1
+    border-left: 12px solid $borderColor
+    padding-left: 12px
+  h2
+    border-left: 10px solid $borderColor
+    padding-left: 10px
+    font-size: 2.1em
+  h3
+    border-left: 8px solid $borderColor
+    padding-left: 8px
+    font-size: 1.8em
+  h4
+    border-left: 8px solid #00b3e6
+    border-bottom: 0px solid $borderColor
+    padding-left: 0px
+    font-size: 1.10em
+  h5
+    border-left: 4px solid $borderColor
+    padding-left: 0
+    font-size: 1.25em
+  h6
+    border-left: 2px solid $borderColor
+    padding-left: 0
+    font-size: 1.15em
+
+.sidebar-link.active
+  border-left: 8px $accentColor solid
+.sidebar-sub-headers a.sidebar-link
+  border-left: none
+
+.theme-default-content code
+  background-color: #E6460022 !important
+  letter-spacing: 2px
+
+td
+  line-height: 22px
+
+.line-number
+  color: $accentColor
+
+.sidebar-button
+  color: $lightTextColor
+
+@media (max-width: 719px)
+  .sidebar
+    .nav-links
+      span.site-name.can-hide
+      .nav-item
+      a.repo-link
+      a.nav-link
+      a.nav-link.router-link-active
+      svg.icon.outbound
+        color: $textColor
+        &:hover
+          color: $accentColor
+
+.page-edit .edit-link a
+  color: #777
+  &::before
+    content: "{ "
+  &::after
+    content: " }"
+  &:hover
+    color: $accentColor
+
+.tablem {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#000000;
+	text-align: left;
+  align: center;
+	word-spacing: 1px;
+	border:0px solid grey;
+	border-spacing:inherit;
+	margin:auto;
+	background-color:#FFFFFF;
+	clear:both;
+}
+
+.tablem thead {
+	background-color:grey; 
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:center;
+}
+
+.tablem tbody tr {
+	background-color:#FFFFFF;
+  border:0px solid #2A748E;
+}
+
+.tablem td {
+	border:0px solid #2A748E;
+}
