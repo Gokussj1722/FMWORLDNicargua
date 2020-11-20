@@ -15,7 +15,7 @@ module.exports = {
 '/en/': { lang: 'en-US'}
   },
   */
-  base: '/FMWORLD-Nicaragua/',
+  base: '/fmworld-nicaragua/',
    themeConfig: {    
     logo: '/main.png',
       locales: {
